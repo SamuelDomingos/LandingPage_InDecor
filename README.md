@@ -1,7 +1,7 @@
 # LandingPage_InDecor
 
 ## descrição
-Uma Landing page moderna no tema de venda de desing de interior de casas
+Uma Landing page moderna no tema de venda de design de interior de casas
 
 <h2 align="center"> 
 	 🚀 LandingPage_InDecor está comcluído 🚀
