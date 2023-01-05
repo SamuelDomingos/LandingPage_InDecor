@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>InDecor</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container flex">
+
+            <div class="header-text">
+                <h2>InDecor</h2>
+
+                <p>UM EVENTO PARA REVOLUCIONAR A SUA CRIATIVIDADE</p>
+
+                <div class="header-data">
+                    <p>Data do Evento:</p>
+                    <h2>Domingo, 28 de maio, a partir das 14h</h2>
+                </div>
+            </div>
+
+            <div class="form">
+                <form class="flex-column" action="">
+                    <h2>Preencha o formulário para receber os delhates do evento</h2>
+
+
+                    <div class="group-input">
+                        <label for="nome">
+                            Nome
+                            <input required id="nome" type="text" placeholder="Digite seu nome">
+                        </label>
+    
+                        <label for="email">
+                            E-mail
+                            <input required  id="email" type="email" placeholder="Digite seu melhor email">
+                        </label>
+    
+                        <label for="telefone">
+                            Telefone
+                            <input required  id="telefone" type="tel" placeholder="Numero de Whatsapp">
+                        </label>
+
+                        <label for="interest">
+                            Principal interesse
+                            <select name="interest" id="interest">
+                                <option disabled selected value="">Selecione</option>
+                                <option value="apartament">Apartamentos</option>
+                                <option value="house">Casas</option>
+                                <option value="garden">Jardim</option>
+                                <option value="other">Outros</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <input type="submit" value="QUERO ME INSCREVER">
+                </form>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="aprender">
+
+        <h2>O que voce vai aprender:</h2>
+
+        <div class="container flex">
+
+            <div class="group-circulo flex-column">
+                <div id="img1" class="group-circulo-img">
+                </div>
+                <p>Alguma coisa muito legal, que vai fazer diferença na vida do parceiro.</p>
+            </div>
+
+            <div class="group-circulo flex-column">
+                <div id="img2"  class="group-circulo-img">
+                </div>
+                <p>Alguma coisa muito legal, que vai fazer diferença na vida do parceiro.</p>
+            </div>
+
+            <div class="group-circulo flex-column">
+                <div id="img3"  class="group-circulo-img">
+                </div>
+                <p>Alguma coisa muito legal, que vai fazer diferença na vida do parceiro.</p>
+            </div>
+
+        </div><!--container-->
+
+    </section>
+
+    <section class="localizacao">
+        <div class="container flex">
+
+            <div class="local-map flex">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                  </svg>
+
+                <h2>Rua do evento, 1222 <br/>
+                Bairro <br/>
+                Abertura:14h</h2>
+            </div>
+
+            <div class="local-destaque">
+                <h2>LOCAL DE DESTAQUE</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate sollicitudin tortor quis facilisis. Ut aliquet lorem quam. Proin varius nisl enim, vitae venenatis nibh ornare at. Vestibulum non aliquam nibh. Phasellus id consequat eros.</p>
+            </div>
+
+        </div><!---container-->
+    </section>
+
+    <section class="detalhes">
+        <div class="container">
+
+            <div class="detalhe-title flex">
+
+                <div class="detalhe-title-img"></div>
+
+                <h2>Conheça os ambientes que voce vai aprender a decorar</h2>
+
+            </div><!--detalhe-title-->
+
+            <div class="detalhe-single flex">
+
+                <div class="detalhe-single-title">
+                    <h2>Detalhes</h2>
+                <ul>
+                    <li>Posicionamento</li>
+                    <li>Aproveitamento de espaço</li>
+                    <li>Combinação de cores</li>
+                    <li>Organização</li>
+                    <li>E muito mais...</li>
+                </ul>
+                </div>
+
+                <img src="images/hrz-2.jpg" alt="">
+
+            </div>
+            <div class="detalhe-single flex">
+
+                <img src="images/hrz-4.jpg" alt="">
+                <div class="detalhe-single-title detalhe-2">
+                    <h2>Objetos</h2>
+                <ul>
+                    <li>Cadeiras</li>
+                    <li>Mesas</li>
+                    <li>Espelhos</li>
+                    <li>Plantas</li>
+                    <li>E muito mais...</li>
+                </ul>
+                </div>
+            </div>
+
+        </div><!--container-->
+    </section>
+
+    <section class="cta">
+        <div class="container">
+
+            <h2>Gostou? Então se inscreva:</h2>
+
+            <a href="#">SOLICITAR INSCRIÇÃO</a>
+
+        </div><!--container-->
+    </section>
+
+    <footer>
+        <div class="container">
+
+                <h3>InDecor</h3>
+                <p>A evolução da decoração de interiores</p>
+
+                <p><span>Entre em contato:</span> fsdomingoss09@gmail.com</p>
+
+                <p><span>Ou pelo telefone:</span> (55) 99999-9999</p>
+
+        </div><!--container-->
+    </footer>
+
+</body>
+</html>
